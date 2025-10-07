@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+
+logging:
+  level:
+    net:
+      engineeringdigest:
+        journalApp: DEBUG
+
+weather:
+  api:
+    key: 2025f8a4a7c38ca73088f25ee0327617
